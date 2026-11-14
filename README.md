@@ -6,7 +6,7 @@ An AI-powered detective game that combines room exploration, visual memory, and 
 
 **Built by Saurav B** · **Powered by Google Gemini**
 
-![ROOMVERSE AI](docs/images/case-archive.png)
+![ROOMVERSE AI home screen](docs/images/home-investigation-hero.png)
 
 ---
 
@@ -105,6 +105,60 @@ The local engine constructs the evidence and trusted solutions even for Gemini-a
 Every game stores its story, questions, answers, hints, and explanations. A shared archive checks virtual rounds for repeated wording, story content, and known question targets. Scanner records remain private to their owner.
 
 These checks reduce repetition; they cannot guarantee unlimited unique content or detect every possible paraphrase. Saved games retain their original content.
+
+## Project Screenshots
+
+A visual walkthrough of the website. Screenshots show example accounts and saved rounds; scores and case content change as players continue.
+
+**Home — Welcome to ROOMVERSE AI:** shown in the opening image above.
+
+### Choose Your Investigation
+
+Browse featured cases and choose a difficulty suited to your observation and reasoning practice.
+
+![Choose Your Investigation](docs/images/case-selection-and-difficulty.png)
+
+### Explore More Challenging Cases
+
+Discover the observatory, railway station, hotel, vault, deep-sea station, and restoration gallery.
+
+![Explore More Challenging Cases](docs/images/intermediate-and-professional-cases.png)
+
+### Observe the Scene and Study the Evidence
+
+Inspect the image during the observation timer, use zoom controls, review case records, and access Detective Nova.
+
+![Observe the Scene and Study the Evidence](docs/images/scene-observation-and-evidence.png)
+
+### Build Your Detective Rank
+
+Five illustrated detective titles show progression from Unlisted to Professional Detective.
+
+![Build Your Detective Rank](docs/images/detective-rank-progression.png)
+
+### Compare Category Rankings
+
+View cumulative points, completed case counts, and total duration in a difficulty-specific leaderboard.
+
+![Compare Category Rankings](docs/images/category-leaderboard.png)
+
+### Cover Private Details Before Upload
+
+The local photo editor lets players cover sensitive areas before submitting a room image for analysis.
+
+![Cover Private Details Before Upload](docs/images/scanner-photo-privacy-editor.png)
+
+### Confirm Gemini-Detected Objects
+
+Review and edit suggested objects, then select a theme and difficulty for a personal practice round.
+
+![Confirm Gemini-Detected Objects](docs/images/gemini-object-confirmation.png)
+
+### Review and Share Your Result
+
+The completed-case screen presents a detective card with score, accuracy, hints, duration, and rank, plus sharing and download controls.
+
+![Review and Share Your Result](docs/images/detective-result-card.png)
 
 ## Technology Stack
 
