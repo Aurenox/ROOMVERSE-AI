@@ -1,0 +1,60 @@
+# Local secrets (keep the safe configuration template)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments and generated caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local application/test databases, backups, and SQLite sidecar files
+*.sqlite3
+*.sqlite3-*
+*.sqlite
+*.sqlite-*
+*.bak
+/backups/
+
+# Frontend dependencies, builds, and tool caches
+node_modules/
+.next/
+.next-e2e/
+.npm-cache/
+*.tsbuildinfo
+frontend/next-env.d.ts
+/frontend/out/
+/frontend/coverage/
+.vercel/
+.netlify/
+
+# Browser-test output and locally captured screenshots
+playwright-report/
+test-results/
+blob-report/
+/screenshots/
+
+# Runtime output; these are created on the hosting server
+*.log
+*.pid
+/backend/staticfiles/
+/backend/media/
+
+# Operating-system and editor temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+desktop.ini
+.idea/
+*.swp
+*.swo
+*~
